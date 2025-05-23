@@ -14,3 +14,6 @@ Inventory management desktop app built with:
 3. Run migrations
 4. Start the app
 
+
+HI
+
