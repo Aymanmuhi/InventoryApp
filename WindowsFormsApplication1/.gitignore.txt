@@ -1,0 +1,18 @@
+﻿# Ignore build and VS files
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.log
+.vs/
+_ReSharper*/
+*.dbmdl
+*.pidb
+*.ide
+*.orig
+TestResults/
+*.psess
+*.vsp
+*.pdb
+*.mdb
