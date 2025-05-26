@@ -15,5 +15,5 @@ Inventory management desktop app built with:
 4. Start the app
 
 
-HI
+HI Hello from me
 
