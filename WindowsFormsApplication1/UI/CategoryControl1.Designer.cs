@@ -1,6 +1,6 @@
-﻿namespace WindowsFormsApplication1
+﻿namespace InventoryApp.UI
 {
-    partial class Form1
+    partial class CategoryControl1
     {
         /// <summary>
         /// Required designer variable.
@@ -22,18 +22,18 @@
 
         #region Windows Form Designer generated code
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Text = "Form1";
+            this.SuspendLayout();
+            // 
+            // CategoryForm
+            // 
+            this.ClientSize = new System.Drawing.Size(550, 460);
+            this.Name = "CategoryForm";
+            this.Text = "Category Manager";
+            this.ResumeLayout(false);
         }
 
         #endregion
     }
 }
-

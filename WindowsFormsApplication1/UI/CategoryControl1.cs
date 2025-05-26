@@ -1,4 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 using MaterialSkin;
 using MaterialSkin.Controls;
@@ -7,7 +14,7 @@ using InventoryApp.Services;
 
 namespace InventoryApp.UI
 {
-    public partial class CategoryForm : MaterialForm
+    public partial class CategoryControl1 : UserControl
     {
         private MaterialTextBox txtName;
         private MaterialTextBox txtDesc;
@@ -19,13 +26,12 @@ namespace InventoryApp.UI
         private CategoryService _service = new CategoryService();
         private Category selectedCategory = null;
 
-        public CategoryForm()
+        public CategoryControl1()
         {
             InitializeComponent();
 
             // Material Design theming
             var materialSkinManager = MaterialSkinManager.Instance;
-            materialSkinManager.AddFormToManage(this);
             materialSkinManager.Theme = MaterialSkinManager.Themes.LIGHT;
             materialSkinManager.ColorScheme = new ColorScheme(
                 Primary.Blue600, Primary.Blue700,
