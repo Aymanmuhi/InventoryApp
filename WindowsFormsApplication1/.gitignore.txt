@@ -1,18 +1,52 @@
-﻿# Ignore build and VS files
+﻿
+# Build results
 bin/
 obj/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
 *.user
 *.suo
-*.cache
+*.userosscache
+*.sln.docstates
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuspec
+
+# Entity Framework
+*.db
+*.ldb
+*.mdf
+*.ldf
+Migrations/
+
+# Logs
 *.log
-.vs/
+
+# Resharper
 _ReSharper*/
-*.dbmdl
-*.pidb
-*.ide
-*.orig
-TestResults/
-*.psess
-*.vsp
+*.DotSettings.user
+
+# Rider
+.idea/
+
+# Windows image thumbnails
+Thumbs.db
+ehthumbs.db
+
+# User-specific files
+*.user
+*.rsuser
+
+# Other
+*.cache
 *.pdb
-*.mdb
+*.tmp
+*.bak
+*.swp
+*.DS_Store
