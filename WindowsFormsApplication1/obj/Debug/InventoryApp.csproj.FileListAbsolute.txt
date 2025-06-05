@@ -33,3 +33,6 @@ C:\Users\Ayman\Desktop\InventoryApp\WindowsFormsApplication1\bin\Debug\ar\Window
 C:\Users\Ayman\Desktop\InventoryApp\WindowsFormsApplication1\obj\Debug\InventoryApp.MainLayout.resources
 C:\Users\Ayman\Desktop\InventoryApp\WindowsFormsApplication1\obj\Debug\InventoryApp.MainLayout.ar.resources
 C:\Users\Ayman\Desktop\InventoryApp\WindowsFormsApplication1\obj\Debug\ar\WindowsFormsApplication1.resources.dll
+D:\InventoryApp\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe.config
+D:\InventoryApp\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.exe
+D:\InventoryApp\WindowsFormsApplication1\obj\Debug\WindowsFormsApplication1.pdb
