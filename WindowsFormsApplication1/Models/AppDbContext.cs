@@ -7,5 +7,6 @@ namespace InventoryApp.Models
         public AppDbContext() : base("name=DefaultConnection") { }
 
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Product> Product { get; set; }
     }
 }
