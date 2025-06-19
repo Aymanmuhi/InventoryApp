@@ -35,6 +35,7 @@
             this.Storage_MenuBtn = new System.Windows.Forms.TabPage();
             this.Settings_MenuBtn = new System.Windows.Forms.TabPage();
             this.tabsImageList = new System.Windows.Forms.ImageList(this.components);
+            this.Products_MenuBtn = new System.Windows.Forms.TabPage();
             this.materialTabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -43,6 +44,7 @@
             this.materialTabControl1.Controls.Add(this.Dashboard_MenuBtn);
             this.materialTabControl1.Controls.Add(this.Storage_MenuBtn);
             this.materialTabControl1.Controls.Add(this.Settings_MenuBtn);
+            this.materialTabControl1.Controls.Add(this.Products_MenuBtn);
             this.materialTabControl1.Depth = 0;
             resources.ApplyResources(this.materialTabControl1, "materialTabControl1");
             this.materialTabControl1.ImageList = this.tabsImageList;
@@ -78,7 +80,13 @@
             this.tabsImageList.Images.SetKeyName(2, "icons8-storage-24.png");
             this.tabsImageList.Images.SetKeyName(3, "menu.png");
             // 
-            // MainApp
+            // Products_MenuBtn
+            // 
+            resources.ApplyResources(this.Products_MenuBtn, "Products_MenuBtn");
+            this.Products_MenuBtn.Name = "Products_MenuBtn";
+            this.Products_MenuBtn.UseVisualStyleBackColor = true;
+            // 
+            // MainLayout
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -87,7 +95,7 @@
             this.DrawerShowIconsWhenHidden = true;
             this.DrawerTabControl = this.materialTabControl1;
             this.DrawerWidth = 270;
-            this.Name = "MainApp";
+            this.Name = "MainLayout";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.materialTabControl1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -100,6 +108,7 @@
         private System.Windows.Forms.TabPage Storage_MenuBtn;
         private System.Windows.Forms.TabPage Settings_MenuBtn;
         private System.Windows.Forms.ImageList tabsImageList;
+        private System.Windows.Forms.TabPage Products_MenuBtn;
     }
 }
 

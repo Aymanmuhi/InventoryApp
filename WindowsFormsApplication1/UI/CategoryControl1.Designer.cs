@@ -26,12 +26,12 @@
         {
             this.SuspendLayout();
             // 
-            // CategoryForm
+            // CategoryControl1
             // 
-            this.ClientSize = new System.Drawing.Size(550, 460);
-            this.Name = "CategoryForm";
-            this.Text = "Category Manager";
+            this.Name = "CategoryControl1";
+            this.Size = new System.Drawing.Size(601, 460);
             this.ResumeLayout(false);
+
         }
 
         #endregion

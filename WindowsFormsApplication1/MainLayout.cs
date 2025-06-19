@@ -20,9 +20,8 @@ namespace InventoryApp
             InitializeComponent();
             InitializeMaterialSkin();
 
-            CategoryControl1 categoryControl = new CategoryControl1();
-            categoryControl.Dock = DockStyle.Fill;
-            Storage_MenuBtn.Controls.Add(categoryControl);
+            Products productsDesign = new Products();
+            Products_MenuBtn.Controls.Add(productsDesign);
 
         }
         private void InitializeMaterialSkin()
